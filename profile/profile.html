@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile - John Gardner</title>
+  <link rel="stylesheet" href="profile.css">
+</head>
+<body>
+  <h1 id="top"><em>Profile - John Gardner</em></h1>
+  <nav>
+    <a href="#pictures">Jump to Pictures</a>
+  </nav>
+  <br>
+<section>
+  <img src="/profile/John_China.jpg" width="200" alt="Picture of me in China eating Grilled Squid Lays Potato chips.">
+  <h2>About Me</h2>
+  <ul>
+    <li>I was born in Scottsdale, Arizona</li>
+    <li>I currently live just southwest of Phoenix, Arizona</li>
+    <li>Since COVID started, I have been just a student enjoying my time with my family.</li>
+    <li>I attend Southern New Hampshire University for Software Engineering as a junior.</li>
+  </ul>
+</section>
+
+<section class="intrests">
+  <h2>Interests</h2>
+  <ul>
+    <li>Reading</li>
+    <li>Martial Arts - My family and I competed on the International and World Circuits.</li>
+    <li>My family</li>
+    <li>Gaming/MMO's</li>
+    <li>International travel, especially China and Okinawa.</li>
+  </ul>
+  <img class="writer zoom" id="pictures" src="/profile/China.jpg" width="200" alt="picture of memorial to ancient Chinese writer.">
+  <img class="zoom" src="/profile/jj-ying-9Qwbfa_RM94-unsplash.jpg" alt="Picture of Mt. Fuji by JJ Ying" width="400">
+</section>
+<audio class="music" src="/mp3s/file_example_MP3_1MG.mp3" loop controls>Your browser does not support HTML5 audio. Here is <a href="mp3s/file_example_MP3_1MG.mp3">a link to the audio</a>instead.</audio>
+
+<section class="review">
+  <h2>Any comments or suggestions</h2>
+  <form action="https://us-central1-nucamp-production.cloudfunctions.net/post/formdata" method="post">
+    <textarea name="comments" id="comments" cols="40" rows="10" placeholder="Comments and suggestions here"></textarea><br>
+    <label for="name">Name</label>
+      <input type="text" id="name" name="name" placeholder="name"/>
+      <label for="email" id="email">Email</label>
+      <input type="email" name="email" placeholder="email">
+      <input type="submit" id="submit-btn"/>
+  </form>
+</section>
+
+  <form action="https://us-central1-nucamp-production.cloudfunctions.net/post/formdata"></form>
+  <ul>
+    <li><a href="#top">Back to the top</a></li>
+    <li><a href="https://www.japan-guide.com/list/e1247.html" target="_blank">Japan-guide for more information.</a></li>
+    <li><a href="https://www.google.com/search?sxsrf=ALeKk03QWojOewAvdTqUIv8Rv-WW5RZRnw%3A1608409480426&source=hp&ei=iGHeX9mWF8Sz0PEPlq2EuAw&q" target="_blank">Search Google for more info.</a></li>
+  </ul>
+</body>
+</html>

@@ -1,0 +1,30 @@
+h1,
+p {
+	position: relative;
+	padding-left: 370px;
+}
+
+body {
+	background-color: aqua;
+}
+
+img {
+	position: absolute;
+}
+
+div {
+	position: absolute;
+	width: 500px;
+	height: 500px;
+}
+
+#rightSide {
+	left: 500px;
+	border-left: 1px solid;
+}
+
+#restart {
+	border-radius: 10px;
+	background-color: rgb(109, 109, 247);
+	color: white;
+}

@@ -1,0 +1,20 @@
+h1 {
+  text-align: center;
+}
+
+.survey-form {
+  width: 30%;
+  margin: auto;
+  background-color: rgb(209, 162, 253);
+}
+
+#submit-btn {
+background-color: green; 
+color: white;
+}
+
+input {
+  font: 1em sans-serif;
+  box-sizing: border-box;
+  border: 1px solid black
+}

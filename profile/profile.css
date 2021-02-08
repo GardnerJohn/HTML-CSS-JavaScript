@@ -1,0 +1,73 @@
+html { 
+  background: url(/profile/279252.jpg) no-repeat center center fixed; 
+  background-size: cover;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: red;
+}
+
+body {
+  color: white;
+}
+
+#top {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  color: white;
+  font-weight: bolder;
+  text-decoration-line: underline;
+  text-decoration-style:dashed;
+}
+
+img {
+  border: 3px solid rgb(245, 175, 175);
+}
+
+h2 {
+  color: white;
+}
+
+.writer {
+  display: inline;
+}
+
+.intrests {
+  margin-bottom: 10px;
+}
+
+.zoom {
+  width: 200px;
+  height: 200px;
+  margin-left: 100px;
+  margin-right: 10px;
+  display: inline;
+}
+
+.zoom:hover {
+  transform: scale(2); 
+}
+
+.music {
+  margin-top: 90px;
+}
+
+h2 li {
+  margin-bottom: 10px;
+}
+
+.review {
+  margin-left: 10px;
+}
+
+label {
+  margin: 5px;
+}
+
+textarea {
+  margin-bottom: 10px;
+}
